@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="view"
+        style="background-image: url('https://photopedia.in/wp-content/uploads/2017/12/wide-angle.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h2 style="color:aliceblue"> <img src="image.png" alt="" width="30" height="25">
+                        <a href="main.html"> <strong>Flickr</strong></a>
+                    </h2>
+                </div>
+
+
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div clas="container-fluid mt-10 p-5  col-sm-12">
+            <div class="row  col-sm-12 justify-content-center">
+
+                <div class=" col-sm-5 mt-5 p-5 col-sm-5">
+
+
+
+                </div>
+                <div class="col-sm-3">
+                    <form class="form-container" onsubmit=" submitbtn()" action="term.html">
+                        <div class="form-group">
+                            <h3>Log in to Flickr</h3>
+
+                            <input style="height:50px" type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+
+                            <input style="height:50px" type="password" class="form-control" id="pwd"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember email address</label>
+                        </div>
+                        <div class="row ">
+                            <input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign In"
+                                onclick="submitbtn()">
+
+                        </div>
+                        <br>
+                        <div class="container-fluid ">
+
+                            <div class="text-center ">
+                                <p><a href="#">
+                                        forget password</a></p>
+                            </div>
+
+                        </div>
+                        <hr>
+
+                        <span class="text-center ">Not a flickr member?<a href="signup1.html">Sign Up</a></span>
+
+
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
